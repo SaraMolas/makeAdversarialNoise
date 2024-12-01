@@ -9,15 +9,15 @@ Optimization: Gradients of the model loss with respect to the input are computed
 Constraint Enforcement: Perturbations are clamped to the valid pixel range. 
 
 # Files 
-**generate_Adversarial_Noise.py**: full script to run the code at once. It takes as input the directory of the image and the target class. Generates the adversarial image and saves it within the same folder in which this file is located. The function returns a message indicating the directory where the image is saved. 
-**TargetedAdversarialAttack.ipynb**: Jupyter notebook showcasing an example of this approach, where adversarial noise was introduced in an image of a Labrador Retriever to get the model to classify it as a banana. 
+- **generate_Adversarial_Noise.py**: full script to run the code at once. It takes as input the directory of the image and the target class. Generates the adversarial image and saves it within the same folder in which this file is located. The function returns a message indicating the directory where the image is saved. 
+- **TargetedAdversarialAttack.ipynb**: Jupyter notebook showcasing an example of this approach, where adversarial noise was introduced in an image of a Labrador Retriever to get the model to classify it as a banana. 
 
 # Input 
-Image: string of filepath to image, picture provided by the user. 
-Target: string, desired predicted class. 
+- Image: string of filepath to image, picture provided by the user. 
+- Target: string, desired predicted class. 
 
 # Output 
-Adv_image: original image with added adversarial noise. 
+- Adv_image: original image with added adversarial noise. 
 
 # Things to do: 
 - Dependency management: Create a requirements.txt file
